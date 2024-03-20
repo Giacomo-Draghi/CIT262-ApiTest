@@ -30,7 +30,7 @@ spec:
               path: /
               port: 3000
               scheme: HTTP
-            faliureThreshold: 1
+            failureThreshold: 1
             periodSeconds: 10
             timeoutSeconds: 10
           startupProbe:
@@ -38,6 +38,6 @@ spec:
               path: /
               port: 3000
               scheme: HTTP
-            faliureThreshold: 30
+            failureThreshold: 30
             periodSeconds: 10
             timeoutSeconds: 10
