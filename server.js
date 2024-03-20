@@ -9,6 +9,6 @@ app.get("/giacomo", (req, res) => {
     res.send("Hello Giacomo!");
 });
 
-app.listene(3000, ()=> {
+app.listen(3000, ()=> {
     console.log("Listening");
 })
